@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task2/views/view.dart';
+import 'package:task2/views/task3/view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ImageTask(),
+      home: const Task3(),
     );
   }
 }
